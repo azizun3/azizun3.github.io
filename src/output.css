@@ -751,6 +751,26 @@ video {
   grid-template-columns: 30% 10% 60%;
 }
 
+.grid-cols-\[30\%_20\%_50\%\] {
+  grid-template-columns: 30% 20% 50%;
+}
+
+.grid-cols-\[30\%_20\%_40\%\] {
+  grid-template-columns: 30% 20% 40%;
+}
+
+.grid-cols-\[30\%_20\%_20\%\] {
+  grid-template-columns: 30% 20% 20%;
+}
+
+.grid-cols-\[30\%_20\%_30\%\] {
+  grid-template-columns: 30% 20% 30%;
+}
+
+.grid-cols-\[30\%_20\%_10\%\] {
+  grid-template-columns: 30% 20% 10%;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -828,6 +848,11 @@ video {
 .bg-indigo-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(99 102 241 / var(--tw-bg-opacity));
+}
+
+.bg-red-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-t {
